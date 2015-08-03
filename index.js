@@ -5,7 +5,7 @@ module.exports = function (initialMap) {
   var daysElapsed = 1;
 
   var cloneArray = function (arr) {
-    return arr.slice().map(function (row) {
+    return arr.map(function (row) {
       return row.slice();
     });
   };
@@ -13,13 +13,8 @@ module.exports = function (initialMap) {
   var advanceDay = function () {
     var nextMap = cloneArray(map);
 
-    for (var x in map) {
-      x = parseInt(x);
-      var row = map[x];
-
-      for (var y in row) {
-        y = parseInt(y);
-        var col = row[y];
+    map.forEach(function (row, x) {
+      row.forEach(function (col, y) {
 
         if (col === '*') {
 
@@ -40,8 +35,8 @@ module.exports = function (initialMap) {
           }
 
         }
-      }
-    }
+      });
+    });
 
     daysElapsed++;
     map = nextMap;
