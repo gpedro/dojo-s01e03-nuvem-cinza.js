@@ -1,7 +1,7 @@
 # Dojo DevMT S01E03 
 [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Code Climate][climate-image]][climate-url]  [![Test Coverage][coverage-image]][coverage-url] 
 
-> [Versão Original](https://github.com/devmatogrosso/dojo-s01e03-nuvem-cinza.php)
+> [Versão Original](https://github.com/gpedro/dojo-s01e03-nuvem-cinza.php)
 > Versão NodeJS
 
 ## Data e Local
@@ -65,7 +65,7 @@ MIT © [Gabriel Pedro](https://gpedro.net)
 [travis-url]: https://travis-ci.org/gpedro/dojo-s01e03-nuvem-cinza.js
 [daviddm-image]: https://david-dm.org/gpedro/dojo-s01e03-nuvem-cinza.js.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/gpedro/dojo-s01e03-nuvem-cinza.js
-[climate-image]: https://codeclimate.com/github/devmatogrosso/dojo-s01e03-nuvem-cinza.js/badges/gpa.svg
-[climate-url]: https://codeclimate.com/github/devmatogrosso/dojo-s01e03-nuvem-cinza.js
-[coverage-image]: https://codeclimate.com/github/devmatogrosso/dojo-s01e03-nuvem-cinza.js/badges/coverage.svg
-[coverage-url]: https://codeclimate.com/github/devmatogrosso/dojo-s01e03-nuvem-cinza.js/coverage
+[climate-image]: https://codeclimate.com/github/gpedro/dojo-s01e03-nuvem-cinza.js/badges/gpa.svg
+[climate-url]: https://codeclimate.com/github/gpedro/dojo-s01e03-nuvem-cinza.js
+[coverage-image]: https://codeclimate.com/github/gpedro/dojo-s01e03-nuvem-cinza.js/badges/coverage.svg
+[coverage-url]: https://codeclimate.com/github/gpedro/dojo-s01e03-nuvem-cinza.js/coverage
